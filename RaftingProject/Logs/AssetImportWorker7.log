@@ -1,36 +1,32 @@
-Unity Editor version:    6000.0.59f2 (ef281c76c3c1)
-Branch:                  6000.0/respin/6000.0.59f1-063c55f2fd0f
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 26.0.1 (Build 25A362)
-Darwin version:          25.0.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        8192 MB
 Using pre-set license
+Built from '6000.0/respin/6000.0.59f1-063c55f2fd0f' branch; Version is '6000.0.59f2 (ef281c76c3c1) revision 15673372'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32189 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-03T21:17:36Z
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker7
 -projectPath
-/Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject
+C:/Users/Andra/college/IMR/backup/IMR_RAFTING_2025/RaftingProject
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-59329
+54561
 -job-worker-count
-3
+9
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name AssetImport
-Successfully changed project path to: /Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject
-/Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Andra/college/IMR/backup/IMR_RAFTING_2025/RaftingProject
+C:/Users/Andra/college/IMR/backup/IMR_RAFTING_2025/RaftingProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,19 +62,17 @@ Successfully changed project path to: /Users/mariusss/Coding/IMR_RAFTING_2025/Ra
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8668137472]  Target information:
+Player connection [15524]  Target information:
 
-Player connection [8668137472]  * "[IP] 192.168.0.133 [Port] 0 [Flags] 2 [Guid] 3069453834 [EditorId] 3069453834 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [15524]  * "[IP] 192.168.0.157 [Port] 0 [Flags] 2 [Guid] 2390119742 [EditorId] 2390119742 [Version] 1048832 [Id] WindowsEditor(7,THE-MARVELOUS-LAPTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8668137472]  * "[IP] 10.211.55.2 [Port] 0 [Flags] 2 [Guid] 3069453834 [EditorId] 3069453834 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [15524]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2390119742 [EditorId] 2390119742 [Version] 1048832 [Id] WindowsEditor(7,THE-MARVELOUS-LAPTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8668137472]  * "[IP] 10.37.129.2 [Port] 0 [Flags] 2 [Guid] 3069453834 [EditorId] 3069453834 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [15524]  * "[IP] 192.168.0.199 [Port] 0 [Flags] 2 [Guid] 2390119742 [EditorId] 2390119742 [Version] 1048832 [Id] WindowsEditor(7,THE-MARVELOUS-LAPTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8668137472]  * "[IP] 169.254.200.126 [Port] 0 [Flags] 2 [Guid] 3069453834 [EditorId] 3069453834 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
-
-Player connection [8668137472] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8668137472] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [15524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15524] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -89,84 +83,101 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 27.82 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 8.37 ms.
+Refreshing native plugins compatible for Editor in 8.20 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
 Initialize engine version: 6000.0.59f2 (ef281c76c3c1)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andra/college/IMR/backup/IMR_RAFTING_2025/RaftingProject/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
- preferred device: Apple M1 (high power)
-Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d19)
+    Vendor:   NVIDIA
+    VRAM:     7810 MB
+    Driver:   32.0.15.8142
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56906
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002593 seconds.
-- Loaded All Assemblies, in  0.767 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-[usbmuxd] Attached: 20 00008103-00052438366A201E
-Native extension for iOS target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.59f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002796 seconds.
+- Loaded All Assemblies, in  0.303 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 699 ms
-Native extension for OSXStandalone target not found
+Android Extension - Scanning For ADB Devices 205 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.656 seconds
-Domain Reload Profiling: 2423ms
-	BeginReloadAssembly (288ms)
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (286ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (97ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (288ms)
-				TypeCache.ScanAssembly (248ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (112ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1657ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (537ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1568ms)
+		SetupLoadedEditorAssemblies (496ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1191ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (304ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.827 seconds
-Refreshing native plugins compatible for Editor in 21.63 ms, found 11 plugins.
-Native extension for iOS target not found
+- Loaded All Assemblies, in  0.755 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.25 ms, found 13 plugins.
 Native extension for Android target not found
-Native extension for OSXStandalone target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <152439c387994a8da523328132967f8d>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <152439c387994a8da523328132967f8d>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <152439c387994a8da523328132967f8d>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <b912dbff05184439afd77d89b5fecd71>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-RaftingProject
@@ -177,126 +188,54 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.863 seconds
-Domain Reload Profiling: 3684ms
-	BeginReloadAssembly (319ms)
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (1356ms)
-		LoadAssemblies (931ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (542ms)
+		LoadAssemblies (349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (593ms)
-			TypeCache.Refresh (443ms)
-				TypeCache.ScanAssembly (352ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1864ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (657ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1370ms)
+		SetupLoadedEditorAssemblies (516ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (218ms)
-			SetLoadedEditorAssemblies (26ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (658ms)
-			ProcessInitializeOnLoadMethodAttributes (226ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launching external process: /Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
-Refreshing native plugins compatible for Editor in 18.77 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.93 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7406 unused Assets / (2.6 MB). Loaded Objects now: 8153.
-Memory consumption went from 139.8 MB to 137.2 MB.
-Total: 65.887042 ms (FindLiveObjects: 14.114500 ms CreateObjectMapping: 0.593417 ms MarkObjects: 42.065291 ms  DeleteObjects: 9.112917 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 461577.953424 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/shurbs/bigLeavesShrubsL.prefab
-  artifactKey: Guid(35c612291be546cef9df8f51b06f1cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/shurbs/bigLeavesShrubsL.prefab using Guid(35c612291be546cef9df8f51b06f1cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8fb1afbab26f0c725a65446047ea3d') in 1.566732625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/bigLeavesTree.fbx
-  artifactKey: Guid(331e6cacaa5064ecb91f918c9aca93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/bigLeavesTree.fbx using Guid(331e6cacaa5064ecb91f918c9aca93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b225de9767286ea7e437313e78966265') in 11.415021833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000866 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/dryBranch/dryBranches Variant.prefab
-  artifactKey: Guid(d64eab04e12df5469b30e8a2cb88a633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/dryBranch/dryBranches Variant.prefab using Guid(d64eab04e12df5469b30e8a2cb88a633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '683169f7fb4f18631c763281c13bfd18') in 0.13000025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryFallenBranchesTree Variant.prefab
-  artifactKey: Guid(d287642e8b29ecfa8b5bf74fb9bffb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryFallenBranchesTree Variant.prefab using Guid(d287642e8b29ecfa8b5bf74fb9bffb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1489cde3a3372c247bc588614df6184d') in 0.015877208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryFallenBranchesTreeL.prefab
-  artifactKey: Guid(646376d7888755be0a6b016eedb1c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryFallenBranchesTreeL.prefab using Guid(646376d7888755be0a6b016eedb1c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c4ae7c04e7f0198ef1cd0f69266c9d2') in 0.044782125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/bigLeavesTreeL.prefab
-  artifactKey: Guid(bd50cc1ba1f197edf95ec3f49d143950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/bigLeavesTreeL.prefab using Guid(bd50cc1ba1f197edf95ec3f49d143950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8596ecbf00b37878e51875bd65e348e9') in 0.036402084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/dryBigLeavesTreeL.fbx
-  artifactKey: Guid(dd15cb756da825b558472172fd030247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/dryBigLeavesTreeL.fbx using Guid(dd15cb756da825b558472172fd030247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b90978aeee67d4f55b897c2b704b994f') in 0.179170958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/dryBranch/meshCollider/deadTree Variant.prefab
-  artifactKey: Guid(586bc0f8d76741f5e919ca1370196e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/dryBranch/meshCollider/deadTree Variant.prefab using Guid(586bc0f8d76741f5e919ca1370196e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '401922bf58da52e867c267d9debd0b95') in 0.024498792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/bigLeavesTree Variant.prefab
-  artifactKey: Guid(ec34882ba31489d06961bd32786a0806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/bigLeavesTree Variant.prefab using Guid(ec34882ba31489d06961bd32786a0806) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8db24488e2101ac21f5f53129dba24') in 0.025086625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 9.08 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9116 unused Assets / (26.3 MB). Loaded Objects now: 9875.
+Memory consumption went from 225.1 MB to 198.8 MB.
+Total: 12.073600 ms (FindLiveObjects: 0.997300 ms CreateObjectMapping: 1.125400 ms MarkObjects: 3.917900 ms  DeleteObjects: 6.032200 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
