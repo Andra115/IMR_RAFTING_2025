@@ -1,0 +1,1830 @@
+Unity Editor version:    6000.0.59f2 (ef281c76c3c1)
+Branch:                  6000.0/respin/6000.0.59f1-063c55f2fd0f
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.0.1 (Build 25A362)
+Darwin version:          25.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+59329
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject
+/Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8668137472]  Target information:
+
+Player connection [8668137472]  * "[IP] 192.168.0.133 [Port] 0 [Flags] 2 [Guid] 1519546156 [EditorId] 1519546156 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8668137472]  * "[IP] 10.211.55.2 [Port] 0 [Flags] 2 [Guid] 1519546156 [EditorId] 1519546156 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8668137472]  * "[IP] 10.37.129.2 [Port] 0 [Flags] 2 [Guid] 1519546156 [EditorId] 1519546156 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8668137472]  * "[IP] 169.254.200.126 [Port] 0 [Flags] 2 [Guid] 1519546156 [EditorId] 1519546156 [Version] 1048832 [Id] OSXEditor(0,Mariuss-MARVELOUS-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8668137472] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8668137472] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 35.26 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 14.34 ms.
+Initialize engine version: 6000.0.59f2 (ef281c76c3c1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mariusss/Coding/IMR_RAFTING_2025/RaftingProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56809
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004011 seconds.
+- Loaded All Assemblies, in  0.891 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+[usbmuxd] Attached: 20 00008103-00052438366A201E
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1240 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.849 seconds
+Domain Reload Profiling: 3741ms
+	BeginReloadAssembly (348ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (260ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2481ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.976 seconds
+Refreshing native plugins compatible for Editor in 12.11 ms, found 11 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-RaftingProject
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.582 seconds
+Domain Reload Profiling: 2549ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (353ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (238ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1294ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (246ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (735ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 19.31 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 14.06 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7406 unused Assets / (3.6 MB). Loaded Objects now: 8152.
+Memory consumption went from 140.1 MB to 136.5 MB.
+Total: 62.589708 ms (FindLiveObjects: 7.257625 ms CreateObjectMapping: 0.459000 ms MarkObjects: 44.448042 ms  DeleteObjects: 10.424125 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 461545.054700 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(da7bcb6a808be3740963ba42608e7072) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Terrain.asset using Guid(da7bcb6a808be3740963ba42608e7072) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d93f571e7e83ac23db6c3ddfcc034d2') in 0.627238084 seconds
+Number of updated asset objects reloaded before import = 41Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.589585 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL
+  artifactKey: Guid(7f73bd03f836eb812a4b145167bef9f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL using Guid(7f73bd03f836eb812a4b145167bef9f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '529aa18a3eaf164b9c604558175b4418') in 0.011447167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/editableMaterial/TreeMaterial.mat
+  artifactKey: Guid(c436d10ac6ff2a00586742c6b4343105) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/editableMaterial/TreeMaterial.mat using Guid(c436d10ac6ff2a00586742c6b4343105) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a49d3b1e7bf6ebbd8050e1a86cbe6411') in 0.345545042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/bigLeavesShrubsL/naturalMaterial/shrubsMaterialN.mat
+  artifactKey: Guid(f7ddf7c1586735a1facb0e9e14fcc29c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/bigLeavesShrubsL/naturalMaterial/shrubsMaterialN.mat using Guid(f7ddf7c1586735a1facb0e9e14fcc29c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f6ba9c37c4a4150f9223684bfea99b1') in 0.060281542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL
+  artifactKey: Guid(e3537ce45e48679909bf04051adfb34e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL using Guid(e3537ce45e48679909bf04051adfb34e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52fcb3f4ff976f44878181ceadfb1e97') in 0.004029958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch/dryBranch/dryBranches.fbx
+  artifactKey: Guid(3dd9affa42ff787faa05b51302a9380c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch/dryBranch/dryBranches.fbx using Guid(3dd9affa42ff787faa05b51302a9380c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d28d949aeb86b3cc52aa5850b7543af') in 0.0915705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/shrubL/naturalMaterial/shrubMaterialN.mat
+  artifactKey: Guid(86f2da28f29e09a3c92902419438417c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/shrubL/naturalMaterial/shrubMaterialN.mat using Guid(86f2da28f29e09a3c92902419438417c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ef5a3c02f7b10e40e2aab9e70e66aa3') in 0.005296875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryFallenBranchesTreeL
+  artifactKey: Guid(31d17a332e89770fa8c0c9385aeaa78c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryFallenBranchesTreeL using Guid(31d17a332e89770fa8c0c9385aeaa78c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd53cf771cba726741b5b6815e36a2f65') in 0.00224925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/purpleTree Variant.prefab
+  artifactKey: Guid(874e3a4a755ef9e639594d1f5df968d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/purpleTree Variant.prefab using Guid(874e3a4a755ef9e639594d1f5df968d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c77588df229e96742a939cfe9686061') in 0.02312825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/naturalMaterial/rockMaterialN.mat
+  artifactKey: Guid(20a5d8224abaccdb3875c88c4a05c650) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/naturalMaterial/rockMaterialN.mat using Guid(20a5d8224abaccdb3875c88c4a05c650) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1cea6b9b225360046a82015df7baea7') in 0.002729833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/editableMaterial
+  artifactKey: Guid(1c85ba94199565825a21553c19440dd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/editableMaterial using Guid(1c85ba94199565825a21553c19440dd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07a4e45d6a983158d30dcb26d258963c') in 0.002626208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/grass/littleGrass/editableMatreial/littleGrassMaterial.mat
+  artifactKey: Guid(27efdf794887a606eba189ee465b7304) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/grass/littleGrass/editableMatreial/littleGrassMaterial.mat using Guid(27efdf794887a606eba189ee465b7304) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07ce5f6039f274bb35de61f5971346c3') in 0.010458125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/dryBranch/deadTree Variant.prefab
+  artifactKey: Guid(63a41ff51baa285678539abba629f286) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/dryBranch/deadTree Variant.prefab using Guid(63a41ff51baa285678539abba629f286) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22a466e5935aa5406cdfcc9fff6a52c3') in 0.007784958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass
+  artifactKey: Guid(372e532e62d4fdbb5977e8d63f541a8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass using Guid(372e532e62d4fdbb5977e8d63f541a8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8185c52c635bc9a3a7f2a3ea98c97c1') in 0.002839833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryPurpleTreeL.prefab
+  artifactKey: Guid(35a8edeb25d4f5555aafc101d801eeb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryPurpleTreeL.prefab using Guid(35a8edeb25d4f5555aafc101d801eeb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e507efe62b455238be90df8ffc341a8e') in 0.016976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/editableMaterial
+  artifactKey: Guid(cf8b52ffe78835edab9095dbce50395d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/editableMaterial using Guid(cf8b52ffe78835edab9095dbce50395d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48494f2763761e2e62ebcbd8475154ac') in 0.002742666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/editableMaterial/leavesMaterial.mat
+  artifactKey: Guid(a93e10294dd069d1e90e0d1b02084845) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/editableMaterial/leavesMaterial.mat using Guid(a93e10294dd069d1e90e0d1b02084845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ed7907c4238424071956f3d238b22ae') in 0.0029255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/tree/tree.fbx
+  artifactKey: Guid(f14cb1c1dbd9f186e8c5fffbe4226805) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/tree/tree.fbx using Guid(f14cb1c1dbd9f186e8c5fffbe4226805) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c35d4261406e3480914d45b2128e920e') in 0.023042917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/naturalMaterial
+  artifactKey: Guid(2bb7273657efa98d7beff581328adfe0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/naturalMaterial using Guid(2bb7273657efa98d7beff581328adfe0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44fd837d8941309a211bc7e17d0c6ee4') in 0.003953875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/dryTree Variant.prefab
+  artifactKey: Guid(f45f80d80cecde8479d856266aa043f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/dryTree Variant.prefab using Guid(f45f80d80cecde8479d856266aa043f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78da25f2b01850f1e9b29bc6bd221631') in 0.009997666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(f6f0211a49947207b8b0ac26cc9a9699) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/editableMaterial/treeMaterial.mat using Guid(f6f0211a49947207b8b0ac26cc9a9699) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03e73f1c930be3d3d132856faa843374') in 0.003438416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/rocks
+  artifactKey: Guid(57b3af0d12e6debdfa8a65d3d3292811) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/rocks using Guid(57b3af0d12e6debdfa8a65d3d3292811) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b4132665f94e475468244ad86fd683a') in 0.002727625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/polygonTrees/polygonTrees/scene/models/scene.fbx
+  artifactKey: Guid(ef7148b3fe80b1466b73d00b3717b79c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/scene/models/scene.fbx using Guid(ef7148b3fe80b1466b73d00b3717b79c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '056206ee9866deb1dd005454a6586ba7') in 0.085060833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 107
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/naturalMaterial
+  artifactKey: Guid(e1f5c180c7777ba338ec1360c19f5d12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/naturalMaterial using Guid(e1f5c180c7777ba338ec1360c19f5d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30ee03c56a2c54db2423e529895a39fb') in 0.005028708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees
+  artifactKey: Guid(25628cbb01448360c84307856d6bf20b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees using Guid(25628cbb01448360c84307856d6bf20b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57571a243a9cd124632786eec2b7702b') in 0.003762917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL
+  artifactKey: Guid(f4df376397d96752d8e52e3930b842b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL using Guid(f4df376397d96752d8e52e3930b842b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e2c531d1d35506a5fe53d0b3e226fc3') in 0.004897166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/editableMaterial
+  artifactKey: Guid(8fcd6f2b8e834dabd86a55811b29f752) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/editableMaterial using Guid(8fcd6f2b8e834dabd86a55811b29f752) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6f6654a7bcf1f64e2eea9abaa791c33') in 0.00572525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx
+  artifactKey: Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx using Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ab4500215ef4cbf343f1d8f754af08e') in 0.04361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/bigLeavesShrubs/bigLeavesShrubs.fbx
+  artifactKey: Guid(606069ef88593eae49cdff6264762507) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/bigLeavesShrubs/bigLeavesShrubs.fbx using Guid(606069ef88593eae49cdff6264762507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd905fea2a7189c5c4845cef19fd2538e') in 0.035889125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/bigLeavesTree Variant.prefab
+  artifactKey: Guid(af28e02efb1b49bc09580ce7162442e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/bigLeavesTree Variant.prefab using Guid(af28e02efb1b49bc09580ce7162442e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed9f1612137b73c3ae29471be0dbb9ed') in 0.0194655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/polygonTrees/polygonTrees/scene/scenePackage.unity
+  artifactKey: Guid(8ce5fa2995ad112d3b74b5a73b016bc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/scene/scenePackage.unity using Guid(8ce5fa2995ad112d3b74b5a73b016bc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a840e29f1ebcadf253adeb489b379ee') in 0.003696666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/polygonTrees/polygonTrees/scene/models
+  artifactKey: Guid(7c62fed4ed053500596d32e589d516d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/scene/models using Guid(7c62fed4ed053500596d32e589d516d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ec3d963c0de30b842d3d998944ad1c6') in 0.0026815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/grass/littleGrass Variant.prefab
+  artifactKey: Guid(fcab16f0d26cd82dab4e96bf1ef5ecc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/grass/littleGrass Variant.prefab using Guid(fcab16f0d26cd82dab4e96bf1ef5ecc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b215a19411587a7969441a4946cb5d7c') in 0.015655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/rocks
+  artifactKey: Guid(0366e07827dbeab31a57be82c1efc237) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/rocks using Guid(0366e07827dbeab31a57be82c1efc237) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7091d660f891aacea5bed232e6d9aa53') in 0.004806958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/deadTree.fbx
+  artifactKey: Guid(b84ad9daa528734e5930406e445c30fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/deadTree.fbx using Guid(b84ad9daa528734e5930406e445c30fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92389ac7d2c788585174ff69f0175213') in 0.015796792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/purpleTree Variant.prefab
+  artifactKey: Guid(b48b3f383c0a3bed59db17486d85a6e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/purpleTree Variant.prefab using Guid(b48b3f383c0a3bed59db17486d85a6e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71bb130b9f7501211dd9bed0d9776a24') in 0.009441625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial
+  artifactKey: Guid(e31fba32cec0d509ea5eabb6efc8097d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial using Guid(e31fba32cec0d509ea5eabb6efc8097d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02a61032b60236cbbd8261b6fcae6924') in 0.007196958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL/naturalMaterial/treeMaterialN.mat
+  artifactKey: Guid(89df81665e948830d86d96376fa26715) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL/naturalMaterial/treeMaterialN.mat using Guid(89df81665e948830d86d96376fa26715) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '616a7d5ed327cfebac1d266d6426f448') in 0.009558083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/shrubs/meshCollider/shrub Variant.prefab
+  artifactKey: Guid(10d973f2d165438a3827a0b355c44a59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/shrubs/meshCollider/shrub Variant.prefab using Guid(10d973f2d165438a3827a0b355c44a59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6431fafe7e6188bbd12ca226284e74c3') in 0.012231208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial/deadTreeMaterial.mat
+  artifactKey: Guid(7ecfb6ee935cccca292f3b84a8dbd6cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial/deadTreeMaterial.mat using Guid(7ecfb6ee935cccca292f3b84a8dbd6cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ee0e2894f0d9fb0bc7c04b3c6c3c900') in 0.007217875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/treeMaterial.mat
+  artifactKey: Guid(787bea74b57e4adf9bfb0835d1cf9610) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/treeMaterial.mat using Guid(787bea74b57e4adf9bfb0835d1cf9610) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40607f04d9288b1e655c7996fe1d099a') in 0.00561025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/fallenBranchesTree Variant.prefab
+  artifactKey: Guid(19362d91ee92c6701b067da38b61ecca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/fallenBranchesTree Variant.prefab using Guid(19362d91ee92c6701b067da38b61ecca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4410493c0b77852a6601f93f1443982') in 0.007908375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/redRockL.fbx
+  artifactKey: Guid(95e88f2a95130ef4ba7cadaebe671869) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/redRockL.fbx using Guid(95e88f2a95130ef4ba7cadaebe671869) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3fa52c50f9a6e9013a4024181704174') in 0.014383167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/polygonTrees/polygonTrees/toTheDeveloper
+  artifactKey: Guid(40f36e343c69e0b65909d6161e232d86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/toTheDeveloper using Guid(40f36e343c69e0b65909d6161e232d86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '172e6323e14a1657a6971f352f8e8aa6') in 0.002642917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/purpleTreeL.prefab
+  artifactKey: Guid(8f0050638986a739a970a82798971226) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/purpleTreeL.prefab using Guid(8f0050638986a739a970a82798971226) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b7454319bf30286832631625e75ee8f') in 0.024079166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials
+  artifactKey: Guid(1fb54a57840fbdccb92e6a13cb4b7f42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials using Guid(1fb54a57840fbdccb92e6a13cb4b7f42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6d26c0e2558c535739aa8406a3c272d') in 0.00329575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/naturalMaterial/TreeMaterial.mat
+  artifactKey: Guid(bd2f89986137061708852f9b350f933a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/naturalMaterial/TreeMaterial.mat using Guid(bd2f89986137061708852f9b350f933a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e62fff4c46670afeb6e4491b576fc0fc') in 0.006973667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryFallenBranchesTreeL/naturalMaterial/treeMaterialN.mat
+  artifactKey: Guid(05212d508a01d404b8ddfe9bbfd55c1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryFallenBranchesTreeL/naturalMaterial/treeMaterialN.mat using Guid(05212d508a01d404b8ddfe9bbfd55c1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8a7d00b4cbba24cc648f637aaac8cf6') in 0.007368958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/naturalMaterial/treeMaterialN.mat
+  artifactKey: Guid(d78827ab19c063e399bb98b18b5ac58d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/naturalMaterial/treeMaterialN.mat using Guid(d78827ab19c063e399bb98b18b5ac58d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8a6be0059d7c39fe1de65df32782fd8') in 0.00480975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial/naturalMaterial/deadTreeMaterialN.mat
+  artifactKey: Guid(beb7520bf12f38ef4be887484ce7977a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial/naturalMaterial/deadTreeMaterialN.mat using Guid(beb7520bf12f38ef4be887484ce7977a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a48aecc250676046f3a69686da12a86e') in 0.00622075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/dryTree.fbx
+  artifactKey: Guid(a447a4862bfecf9b48155669d7db9f02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/dryTree.fbx using Guid(a447a4862bfecf9b48155669d7db9f02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '945a8e9444b9c02670f199046c32e5f6') in 0.025311792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab
+  artifactKey: Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab using Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e239f009e92f908bace6edc28020f342') in 0.01088775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/naturalMaterial/TreeMaterialN.mat
+  artifactKey: Guid(8f0469bed386380c389e81b3b4a96d0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/naturalMaterial/TreeMaterialN.mat using Guid(8f0469bed386380c389e81b3b4a96d0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bce84a9e14126672ae4aac5ed563bc0b') in 0.003300125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/naturalMaterial/redRockMaterial 1.mat
+  artifactKey: Guid(a2524aebb7f27083e910b7e85f58bf9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/naturalMaterial/redRockMaterial 1.mat using Guid(a2524aebb7f27083e910b7e85f58bf9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '736a26b5100709cd10aa2e834ebdb753') in 0.005215125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/simpleTreeL.prefab
+  artifactKey: Guid(212f325bed8f67757931990be0361431) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/simpleTreeL.prefab using Guid(212f325bed8f67757931990be0361431) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8a8b923b3aa4b436039a7d608db1d8b') in 0.011276042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees
+  artifactKey: Guid(d6bde73633f40f1ddb8ec6266cd87bc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees using Guid(d6bde73633f40f1ddb8ec6266cd87bc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e164ebe29fdc3014a0114d7bcaed712') in 0.002112417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/dryBranchesL/editableMaterial/deadTreeMaterial.mat
+  artifactKey: Guid(ff4932141d8edb264a6039b89e750ac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/dryBranchesL/editableMaterial/deadTreeMaterial.mat using Guid(ff4932141d8edb264a6039b89e750ac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ef4da6457d6a178d1ad423b4c9c2e19') in 0.005254583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/rocks/rock Variant.prefab
+  artifactKey: Guid(9fea3f738a721b642b10d0735a3c2ff4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/rocks/rock Variant.prefab using Guid(9fea3f738a721b642b10d0735a3c2ff4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '249ad873c33bcd5bc28c99c72f4fafdf') in 0.022162042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials/shrubMaterial.mat
+  artifactKey: Guid(841528ee7fc39b544960d9bb24d93fa8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials/shrubMaterial.mat using Guid(841528ee7fc39b544960d9bb24d93fa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8488ea6f0c46ae184299e4148260d47d') in 0.003925542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/shrubs/meshCollider/bigLeavesShrubs Variant.prefab
+  artifactKey: Guid(496e28cd48ebe93fab14274b00820b68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/shrubs/meshCollider/bigLeavesShrubs Variant.prefab using Guid(496e28cd48ebe93fab14274b00820b68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '910dc7ae247eadc7b4d5d6a62ee42793') in 0.020409625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(dd5b5c32259009c3388ff00c5eee12b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL/editableMaterial/treeMaterial.mat using Guid(dd5b5c32259009c3388ff00c5eee12b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd418bd205457aa66098d4ab11ef19b8') in 0.012818458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(967a819c2e61bf0fc8defd81721d5887) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/leavesMaterial.mat using Guid(967a819c2e61bf0fc8defd81721d5887) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b67b52168d7d4ec1beacd3583b69cc46') in 0.005387375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/blackRockL/naturalMaterial/blackRockMaterialN.mat
+  artifactKey: Guid(bf625161a7897b4c9b8de2a21cf5b09c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/blackRockL/naturalMaterial/blackRockMaterialN.mat using Guid(bf625161a7897b4c9b8de2a21cf5b09c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a67b2f0d10262af5fc5602e9c83148bd') in 0.005739791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000998 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider
+  artifactKey: Guid(95ec87417a4acff01a205c4563ebab4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider using Guid(95ec87417a4acff01a205c4563ebab4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfc16b9abb00c06afbf3c1c932eadc79') in 0.004194916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/rocks/blackRock Variant.prefab
+  artifactKey: Guid(9c908bfc4527810428cae78e2eac3e46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/rocks/blackRock Variant.prefab using Guid(9c908bfc4527810428cae78e2eac3e46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a7eb588e7b27b7bc082e8cca7ffc1f2') in 0.016467042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL/dryPurpleTreeL.fbx
+  artifactKey: Guid(49c52aa9022901834a6f50b13472da72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL/dryPurpleTreeL.fbx using Guid(49c52aa9022901834a6f50b13472da72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f01269dcf6b4aba866d4e9b39e1cacbf') in 0.040570375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/blackRockL/blackRockL.fbx
+  artifactKey: Guid(204173ea1065547cea01e1550db0974b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/blackRockL/blackRockL.fbx using Guid(204173ea1065547cea01e1550db0974b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfaa253f828befb3ad550fbe559146c1') in 0.016781541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(3b85fffb0d3a7c7ccac4930232997dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/editableMaterial/treeMaterial.mat using Guid(3b85fffb0d3a7c7ccac4930232997dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5167ba990bc797c3824d53e42e8a0a4') in 0.011946375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/shrubs/littleLeavesShrub Variant.prefab
+  artifactKey: Guid(aad768f876a5d714abefd21f70785ee3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/shrubs/littleLeavesShrub Variant.prefab using Guid(aad768f876a5d714abefd21f70785ee3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a123f5c8e30c3762433b74c549e7a44') in 0.014775333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/simpleTreeL/naturalMaterial/treeMaterial.mat
+  artifactKey: Guid(49db3077d77aa4fe6b4f1a881bb627ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/simpleTreeL/naturalMaterial/treeMaterial.mat using Guid(49db3077d77aa4fe6b4f1a881bb627ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4de124fc2eaa8eceb228c9a8bd7a7e16') in 0.0100775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/dryBigLeavesTreeL.fbx
+  artifactKey: Guid(dd15cb756da825b558472172fd030247) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/dryBigLeavesTreeL.fbx using Guid(dd15cb756da825b558472172fd030247) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b81daf6fd47d2218e4ec1c2eb38bcf5') in 0.033258375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/bigLeavesShrubsL/editableMaterial/shrubsMaterial.mat
+  artifactKey: Guid(9d713c87577f01ea89b6407f2ead476e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/bigLeavesShrubsL/editableMaterial/shrubsMaterial.mat using Guid(9d713c87577f01ea89b6407f2ead476e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47e77aaa8aa175f609e4a75ce7f4c482') in 0.006705417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/littleGrassL.prefab
+  artifactKey: Guid(077b0ed9293742bd18f47d7bd7f20fa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/littleGrassL.prefab using Guid(077b0ed9293742bd18f47d7bd7f20fa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cba397c8b61e5bdf9498566f34fd974d') in 0.010587292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/purpleTree.fbx
+  artifactKey: Guid(dab065333028e7dbc8bdea91c6e0e797) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/purpleTree.fbx using Guid(dab065333028e7dbc8bdea91c6e0e797) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47d99e2bb22caa7d79f9001c2d5dc5ac') in 0.028545417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002035 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(461766fc5261e59748fb3662777e9892) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/editableMaterial/treeMaterial.mat using Guid(461766fc5261e59748fb3662777e9892) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78b68b62b9a0c43d2bf847e61a6592d1') in 0.004331458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/bigLeavesTree Variant.prefab
+  artifactKey: Guid(ec34882ba31489d06961bd32786a0806) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/bigLeavesTree Variant.prefab using Guid(ec34882ba31489d06961bd32786a0806) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bda214cde17957946745684abe74e066') in 0.016200667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/shrubs
+  artifactKey: Guid(bb4fbabf46b76399ead45e0d431cff6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/shrubs using Guid(bb4fbabf46b76399ead45e0d431cff6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8f449dbb4d80877c30705089eed5612') in 0.005778916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL
+  artifactKey: Guid(1d6f93cae867f777d8e64acf7166c85a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL using Guid(1d6f93cae867f777d8e64acf7166c85a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '105eb9c4619cb36a71f8d2356c096f36') in 0.004807125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/simpleTree Variant.prefab
+  artifactKey: Guid(e021f2107856b97978976612624c27b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/simpleTree Variant.prefab using Guid(e021f2107856b97978976612624c27b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f32f634a869e6ccdea212260f730153a') in 0.02450475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial/naturalMaterial
+  artifactKey: Guid(cc275efeadc3cc3b0b42a79a9955e7c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/deadTreeL/editableMaterial/naturalMaterial using Guid(cc275efeadc3cc3b0b42a79a9955e7c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aafe0442ecf7e46af41e87da7d0e3f7') in 0.003962416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/shurbs
+  artifactKey: Guid(2d1677cd5378717d08b4c8d2f424cf0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/shurbs using Guid(2d1677cd5378717d08b4c8d2f424cf0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1482764ec31ae4e4da87d63e550e11aa') in 0.004852833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(d419757e99341f882906d71e95a69d77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial/treeMaterial.mat using Guid(d419757e99341f882906d71e95a69d77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fee9e9fa7ff3254f6b04b3504e0dc71') in 0.006402583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL/editableMaterial/TreeMaterial.mat
+  artifactKey: Guid(bd6ebc51b46cd45828e900cd39022151) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL/editableMaterial/TreeMaterial.mat using Guid(bd6ebc51b46cd45828e900cd39022151) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87bc40799f59d5bf3375d94b6d7c59d2') in 0.003104041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/naturalMaterial
+  artifactKey: Guid(06fdf2fe5163c9b6c8a5faa67eb193bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/naturalMaterial using Guid(06fdf2fe5163c9b6c8a5faa67eb193bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fb9c9cbfd98af1f3d85bc951e147871') in 0.004089125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/bigLeavesTree.fbx
+  artifactKey: Guid(b79ea7d30c3eb9ee7b39cd55a82c6229) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/bigLeavesTree.fbx using Guid(b79ea7d30c3eb9ee7b39cd55a82c6229) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f55c36381e59252d1b06135a56172e37') in 0.015329542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree
+  artifactKey: Guid(0a5fc3d18302cbd05ba262957c570478) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree using Guid(0a5fc3d18302cbd05ba262957c570478) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6784c109cda0cbed0d07f25a63a81c78') in 0.004671959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/shrubL/editableMaterial
+  artifactKey: Guid(4ef819ad27956044ab159a61b3869493) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/shrubL/editableMaterial using Guid(4ef819ad27956044ab159a61b3869493) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e63261ef8d25b677ccedfbc88049153') in 0.005657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/fallenBranchesTreeL.fbx
+  artifactKey: Guid(2aa9288d4eb0c3632b8de02d3af2450c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/fallenBranchesTreeL.fbx using Guid(2aa9288d4eb0c3632b8de02d3af2450c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f196b0ad4fd59c92f451bb6a13244d1d') in 0.062032334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(1a477a76ef1af2f4eaf8f83087aab051) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials/leavesMaterial.mat using Guid(1a477a76ef1af2f4eaf8f83087aab051) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dde42ee0b49e097773a5b362a52c8a8') in 0.003678416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials
+  artifactKey: Guid(f79069084cafaf996bee49817cd1e22a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials using Guid(f79069084cafaf996bee49817cd1e22a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb35fc39371255061d1c29ba77ac8a4d') in 0.002776333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/grass/grass/grass.fbx
+  artifactKey: Guid(f8ca77d888ad7c058a3f1ce36ded1aa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/grass/grass/grass.fbx using Guid(f8ca77d888ad7c058a3f1ce36ded1aa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e3ca5dca8e4465a4de4c4d1b56f0e3c') in 0.011989666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial/TreeMaterial.mat
+  artifactKey: Guid(700550ff96aeb4b95b27ff24e7a9e5a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial/TreeMaterial.mat using Guid(700550ff96aeb4b95b27ff24e7a9e5a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0071ee39842f3e3aefa9a2670ca61e7c') in 0.004496333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset
+  artifactKey: Guid(3861c298d39c60c44b16920421444875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset using Guid(3861c298d39c60c44b16920421444875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85249c2283f898272bb52275ec23fe11') in 0.099205958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/rocks/redRock/editableMAterial
+  artifactKey: Guid(96d54fa46d45f03bfbcb9a4d8d8fd732) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/rocks/redRock/editableMAterial using Guid(96d54fa46d45f03bfbcb9a4d8d8fd732) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38aeb0ee452fa2ede440e10758487d09') in 0.005587334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001319 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial
+  artifactKey: Guid(af6a3cfa1accf124db2f2b08da55d473) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial using Guid(af6a3cfa1accf124db2f2b08da55d473) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '155c55ba1fb13aabc8389813c7224ac5') in 0.003658292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/editableMaterial/rockMaterial.mat
+  artifactKey: Guid(becee20b7202ad31092291e9f86d6467) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/rockL/editableMaterial/rockMaterial.mat using Guid(becee20b7202ad31092291e9f86d6467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfbd2b023c3f51837ff1889e6909edd9') in 0.005454959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001144 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/naturalMaterial/leavesMaterialN.mat
+  artifactKey: Guid(5feca55090fcf23668cbaaa9effb7602) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/naturalMaterial/leavesMaterialN.mat using Guid(5feca55090fcf23668cbaaa9effb7602) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a86d43b02035ca329aedd10d707c66a') in 1.043677542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL/editableMaterial
+  artifactKey: Guid(9163a7413f4a0e78381c695d734a781d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL/editableMaterial using Guid(9163a7413f4a0e78381c695d734a781d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '099363373353804f4e90b83a205b7e05') in 0.01108625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/polygonTrees/polygonTrees
+  artifactKey: Guid(4287a83be01f52a409aa5c20b74ff746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees using Guid(4287a83be01f52a409aa5c20b74ff746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70cdf9b868deaf2376cd4889195285cb') in 0.004842042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL/naturalMaterial/TreeMaterialN.mat
+  artifactKey: Guid(db3955146b41883be840d3a96cfbb47c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL/naturalMaterial/TreeMaterialN.mat using Guid(db3955146b41883be840d3a96cfbb47c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '673542988c0b7447c73c97feacf10449') in 0.005749833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/simpleTreeL/naturalMaterial
+  artifactKey: Guid(23d412171d4ab54f0ab48974683bdc42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/simpleTreeL/naturalMaterial using Guid(23d412171d4ab54f0ab48974683bdc42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15b679748e1c4239c0ff20d0c88abe40') in 0.004667667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryTree Variant.prefab
+  artifactKey: Guid(6156f12d025f5ac51bb4334c19cf3d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryTree Variant.prefab using Guid(6156f12d025f5ac51bb4334c19cf3d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '479e8a862b06b31a36c0aa02485c4bdd') in 0.026398583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch
+  artifactKey: Guid(45ad2698972b31c6d9789ee68d44bbf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch using Guid(45ad2698972b31c6d9789ee68d44bbf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5912fddf3199e52f8c199fe2e60a5a42') in 0.006416167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree
+  artifactKey: Guid(ea40ac9cb276b0885b9333220266c04a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree using Guid(ea40ac9cb276b0885b9333220266c04a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebfa4aad9407e956a7b02b2c59d55de1') in 0.014039042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryTreeL.prefab
+  artifactKey: Guid(1987d45a30fa64addae3735d348f2881) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryTreeL.prefab using Guid(1987d45a30fa64addae3735d348f2881) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9562d934c18e412b1d22745ba0c8f973') in 0.071439875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL
+  artifactKey: Guid(ac176333c3b4c4ec58e761025fdd8911) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL using Guid(ac176333c3b4c4ec58e761025fdd8911) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f769ac89b4a6493084d526f18fd9bbe0') in 0.003199708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006762 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/simpleTree Variant.prefab
+  artifactKey: Guid(62af2fcdf2240a9bcb51173258324d41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/simpleTree Variant.prefab using Guid(62af2fcdf2240a9bcb51173258324d41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '037f28a47c10b1c44a09ceced9a88da9') in 0.030349292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees
+  artifactKey: Guid(6adfe480f9efeb868b6a3e9a57ee7bc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees using Guid(6adfe480f9efeb868b6a3e9a57ee7bc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cf284e6e6b36d72eb260a1b1916c74e') in 0.012190209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees
+  artifactKey: Guid(3af9cbf0bf1896f01a2d9412fcc3797e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees using Guid(3af9cbf0bf1896f01a2d9412fcc3797e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '363eeb29034a7a0df994cb7c15087ae0') in 0.005671042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/tree1L.prefab
+  artifactKey: Guid(e1058c6956dd308aeaf75230cea768c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/tree1L.prefab using Guid(e1058c6956dd308aeaf75230cea768c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd0e3c8a0d2c967a80a7b583580d1095') in 0.104980542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees
+  artifactKey: Guid(33ed02099c7c23461a837beaa1bfb4a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees using Guid(33ed02099c7c23461a837beaa1bfb4a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ee7979ab21343063f13d1cb465cefe7') in 0.007058834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryFallenBranchesTreeL/editableMaterial
+  artifactKey: Guid(157dab895b8962ceaba39f85a4aa7c03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryFallenBranchesTreeL/editableMaterial using Guid(157dab895b8962ceaba39f85a4aa7c03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'deb6eacb6df12e8fabb66d4c11500c44') in 0.003219958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/editableMAtrial
+  artifactKey: Guid(e6a97b72018bf78048e6305c893a6dfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/editableMAtrial using Guid(e6a97b72018bf78048e6305c893a6dfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a54e36d1428e064e27c4f15e0e66fbe') in 0.003857291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/rockL
+  artifactKey: Guid(28a80c86104cef11fb32c5c53896fa85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/rockL using Guid(28a80c86104cef11fb32c5c53896fa85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4626a186006cd7b68e689b94ff725f9') in 0.004036542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/dryBranchesL/dryBranchesL.fbx
+  artifactKey: Guid(fb91b7f9b4c80cd8889828202fdfb9e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/dryBranchesL/dryBranchesL.fbx using Guid(fb91b7f9b4c80cd8889828202fdfb9e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c0b48bb6a2e8147e9f6324aa1120106') in 0.053391834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/editableMaterial
+  artifactKey: Guid(edbd7b6236f5e3ec8aecaa13bba0eadf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/editableMaterial using Guid(edbd7b6236f5e3ec8aecaa13bba0eadf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3c3403cee11906abb5dddf0cf3488e3') in 0.009750833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/shrubL/naturalMaterial/leavesMaterialN.mat
+  artifactKey: Guid(4559ae9a879a77bfebd5d259f65d32b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/shrubL/naturalMaterial/leavesMaterialN.mat using Guid(4559ae9a879a77bfebd5d259f65d32b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43c3e82057e3b2a37a9eee52a31c4eb9') in 0.006338125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Hand Expression Captures/Resting Expression Capture.asset
+  artifactKey: Guid(5be099e6e6012c244bb41881b6c0ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Hand Expression Captures/Resting Expression Capture.asset using Guid(5be099e6e6012c244bb41881b6c0ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc25baf373e5f7ba9195c542cf9401be') in 0.00695625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001195 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL
+  artifactKey: Guid(9fce0d9579ee1f1cba5070c010f60762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL using Guid(9fce0d9579ee1f1cba5070c010f60762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2644d419d054e8b9bcc9ca99b95db2dd') in 0.005682209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000971 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL
+  artifactKey: Guid(c46107eb555d88143864b7cd82541b55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryTreeL using Guid(c46107eb555d88143864b7cd82541b55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ba9ddbe7f05a416fc7c995a66d6069c') in 0.003583417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/littleGrassL.fbx
+  artifactKey: Guid(87ce77df16da887e3b4dcb495428797f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/littleGrassL.fbx using Guid(87ce77df16da887e3b4dcb495428797f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56da9779b8cb7769a2954ccb716b9eaf') in 0.023882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/naturalMaterial/shrubMaterialN.mat
+  artifactKey: Guid(8a076cc9eaf245ba58f82541573934de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/naturalMaterial/shrubMaterialN.mat using Guid(8a076cc9eaf245ba58f82541573934de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f04fb4d269969ab1d2cef3e267c151ad') in 0.012026333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/polygonTrees/polygonTrees/models
+  artifactKey: Guid(e85ca58b948d1871ca56cca71164c020) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models using Guid(e85ca58b948d1871ca56cca71164c020) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '835fef291937b6d6c236bb68c0a7bcf7') in 0.00687625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/editableMaterial/littleGrassMaterial.mat
+  artifactKey: Guid(e2853c3077ec7610493e845361090bc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/editableMaterial/littleGrassMaterial.mat using Guid(e2853c3077ec7610493e845361090bc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8659ad392680954be9a5fcaa6f55e33') in 0.019815708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001562 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/grass/grass Variant.prefab
+  artifactKey: Guid(134c96ff51198e4cea360c89aaab1411) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/grass/grass Variant.prefab using Guid(134c96ff51198e4cea360c89aaab1411) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5feada45d4683bde0bf1203b9e2352ad') in 0.016536417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002117 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryBigLeavesTreeL.prefab
+  artifactKey: Guid(4e1fc54419c5dd9bc9e8dc4e164101f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryBigLeavesTreeL.prefab using Guid(4e1fc54419c5dd9bc9e8dc4e164101f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '901d8e320ddc21e9a3026bfc2215eb8e') in 0.036859083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001472 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/editableMaterial
+  artifactKey: Guid(562e1c3653b5647e6b5776b4a99b5f0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/editableMaterial using Guid(562e1c3653b5647e6b5776b4a99b5f0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66c1d1bb895d3aa5ad4b160038c6dd9a') in 0.006873583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL
+  artifactKey: Guid(6d0a243293cef4f26a637855bbcdf9cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL using Guid(6d0a243293cef4f26a637855bbcdf9cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c74ec6f2c541bba7257c72c0778aabda') in 0.003120375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL/naturalMaterial
+  artifactKey: Guid(5ccdaf0a6ba773613b18430688b9ad0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL/naturalMaterial using Guid(5ccdaf0a6ba773613b18430688b9ad0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5be6efc6039585de6fb9be01db53aa8b') in 0.005547458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees
+  artifactKey: Guid(7456a5ae022ce8012a22fefc8bc3731d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees using Guid(7456a5ae022ce8012a22fefc8bc3731d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '353ae71b9a3081c750e9133168af81f2') in 0.004061334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008712 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/naturalMaterial/leavesMaterialN.mat
+  artifactKey: Guid(f6194df1452eb901cb1116e9fe769fa3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/naturalMaterial/leavesMaterialN.mat using Guid(f6194df1452eb901cb1116e9fe769fa3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8990f1a6e34ae69cf35d01c0ad62efff') in 0.012121375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002920 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/rocks/blackRock/editableMAterial
+  artifactKey: Guid(1b229e6f4b81082528aece728863c13b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/rocks/blackRock/editableMAterial using Guid(1b229e6f4b81082528aece728863c13b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4638e1a8ee3d380219d54a7a2bf4b2f5') in 0.007087542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/naturalMaterial/treeMaterialN.mat
+  artifactKey: Guid(859bc63174e9d3b1495c0b2bef7cb8cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/naturalMaterial/treeMaterialN.mat using Guid(859bc63174e9d3b1495c0b2bef7cb8cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c606ebb1c7b1c3afda71a82d24175ebd') in 0.006167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs
+  artifactKey: Guid(261d9b9e090b841769c200ea56e485dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs using Guid(261d9b9e090b841769c200ea56e485dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53a2980b90317d25de8dc8c1688710f9') in 0.006162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001584 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/grassL.prefab
+  artifactKey: Guid(efa2d9a4e7dbd481ea0b69edab7eba1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/grassL.prefab using Guid(efa2d9a4e7dbd481ea0b69edab7eba1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fff72babd007a1bb199c44c5cc764f46') in 0.025156584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/editableMaterial/TreeMaterial.mat
+  artifactKey: Guid(aebf90da33d076188bc5f19f013c6234) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/editableMaterial/TreeMaterial.mat using Guid(aebf90da33d076188bc5f19f013c6234) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24f0721d0c45657e0342f03bf4e0e172') in 0.020016667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials
+  artifactKey: Guid(cb4fe54b613f285a6963a0810942edab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials using Guid(cb4fe54b613f285a6963a0810942edab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a96aba95a0a6bbf95bfa9f17691aa34f') in 0.004598792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/dryBranchesL/naturalMaterial/deadTreeMaterialN.mat
+  artifactKey: Guid(0e346cecc4919538d88f761d1387e664) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryBranches/dryBranchesL/naturalMaterial/deadTreeMaterialN.mat using Guid(0e346cecc4919538d88f761d1387e664) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e29014bfbd79b9d4802431e67aee6f8e') in 0.005589334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree
+  artifactKey: Guid(480ddf878b9b9494d8cdfb8f2c3692c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree using Guid(480ddf878b9b9494d8cdfb8f2c3692c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e72331624b657850522767c494bee85') in 0.006427208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/drySimpleTreeL.fbx
+  artifactKey: Guid(f35b7a1c7e39c6e03bc7a6ab92509bfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/drySimpleTreeL.fbx using Guid(f35b7a1c7e39c6e03bc7a6ab92509bfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0014308f3c8af998a40e6a39c717eb81') in 0.031337542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/drySimpleTree Variant.prefab
+  artifactKey: Guid(6cc76445391501dda8ef9608919e7449) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/drySimpleTree Variant.prefab using Guid(6cc76445391501dda8ef9608919e7449) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fab85cf71a0173ffc76a28a4fab42f5e') in 0.020071833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002804 seconds.
+  path: Assets/polygonTrees/polygonTrees/toTheDeveloper/toTheDeveloper.pdf
+  artifactKey: Guid(b74aa5dbf60d9ee649085cd32503f7ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/toTheDeveloper/toTheDeveloper.pdf using Guid(b74aa5dbf60d9ee649085cd32503f7ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92eb01dd2af01618cea4dfde4a7bc13f') in 0.003243458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/polygonTrees/polygonTrees/scene/prefabs/scene.prefab
+  artifactKey: Guid(250bc746c53f33bc4a8d03b5a278fc59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/scene/prefabs/scene.prefab using Guid(250bc746c53f33bc4a8d03b5a278fc59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf645d8995999e47aaa7630b8d4c5fa2') in 0.088500375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/editableMaterial
+  artifactKey: Guid(7e70d015cef6fc6c08fd452a96879e86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryBigLeavesTreeL/editableMaterial using Guid(7e70d015cef6fc6c08fd452a96879e86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '120ad1c34a440e3d3f55fa74dfdc4737') in 0.003375583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L
+  artifactKey: Guid(ca9315c0f3c361ff39acb10f276c245f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L using Guid(ca9315c0f3c361ff39acb10f276c245f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79a1e96aae56e5403f0f4d7e1bb099b6') in 0.001877834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Hand Expression Captures
+  artifactKey: Guid(6e328aec6ff17084fb147d5b790becee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/XR Device Simulator/Hand Expression Captures using Guid(6e328aec6ff17084fb147d5b790becee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e26a0517f9c93112dfe3d26f892663') in 0.000566375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001440 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/editableMaterial
+  artifactKey: Guid(79a796276941a41e8a157d7a4f6aec97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/editableMaterial using Guid(79a796276941a41e8a157d7a4f6aec97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05e3764115d078b195f786a7a587f73d') in 0.004571083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial
+  artifactKey: Guid(3e886d7b3b341acc09d010b78ca4dc90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial using Guid(3e886d7b3b341acc09d010b78ca4dc90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bd50e24e85b66d5e82997b21da42ec2') in 0.007425833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/naturalMaterial/treeMaterialN.mat
+  artifactKey: Guid(7347ad51b4a98241f8bee1e15afa0ef1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/naturalMaterial/treeMaterialN.mat using Guid(7347ad51b4a98241f8bee1e15afa0ef1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b659ccaa0573d2d1d78d591415c7287c') in 0.005262417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001946 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub
+  artifactKey: Guid(bcd60d2f93579ffe8905e733d369aee7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub using Guid(bcd60d2f93579ffe8905e733d369aee7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46d1455bef94ad0ab614d98dba2bec4a') in 0.009846583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006395 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub
+  artifactKey: Guid(811f69abe50b13857874f501cfa6a3c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub using Guid(811f69abe50b13857874f501cfa6a3c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b56dbbbf75c308e7bfa9136384f906a3') in 0.005066958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020309 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/shrubs/shrub Variant.prefab
+  artifactKey: Guid(4a5c3f58cf4a9055693572e2fb1af5aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/shrubs/shrub Variant.prefab using Guid(4a5c3f58cf4a9055693572e2fb1af5aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd18c69f9ad2ef2569766e27d3ecf3a06') in 0.012080583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/editableMaterial
+  artifactKey: Guid(609936b15ee7d86a68f114d434213488) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/editableMaterial using Guid(609936b15ee7d86a68f114d434213488) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02c0fa982ea54ff91460db062d098831') in 0.002471625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/bigLeavesTreeL.fbx
+  artifactKey: Guid(e5defcd771ea6ccb18c54c540bfbcfdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/bigLeavesTreeL.fbx using Guid(e5defcd771ea6ccb18c54c540bfbcfdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fb491156c85e5a4eeaaf5a1ea1ad0ee') in 0.070474208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001595 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/grass/grass/editableMatreial
+  artifactKey: Guid(97398f6356e15aad2af0fb2ed1992474) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/grass/grass/editableMatreial using Guid(97398f6356e15aad2af0fb2ed1992474) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c7a7e3f6644cfc8e7fad2cf9eeb5bea') in 0.00643625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008624 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/naturalMaterial
+  artifactKey: Guid(dd10e6c16a59e562e9a6076ea16a7757) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/drySimpleTreeL/naturalMaterial using Guid(dd10e6c16a59e562e9a6076ea16a7757) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '418725d13a05cde6290dcb457b1bad81') in 0.00732575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree
+  artifactKey: Guid(419f61bc0a9f06542926ee3f5cd591fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree using Guid(419f61bc0a9f06542926ee3f5cd591fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00c35339e05ae28e3f37e19b7de1f4c6') in 0.002993125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004138 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/littleLeavesShrub/editableMaterials
+  artifactKey: Guid(b4b77b047ad9ba7bfa999576a988f187) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/littleLeavesShrub/editableMaterials using Guid(b4b77b047ad9ba7bfa999576a988f187) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '553b7cd1ead3dcb9d6163bbf41e743b9') in 0.004333292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/littleLeavesShrub
+  artifactKey: Guid(136c893b36ce8034385c0f13aefa3fbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/littleLeavesShrub using Guid(136c893b36ce8034385c0f13aefa3fbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3649726d28fb8f5c0ebbca4dbe7b00cd') in 0.011035958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/editableMaterial
+  artifactKey: Guid(eeb0bab60e345c78cbc8fad6ce3a2fa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/editableMaterial using Guid(eeb0bab60e345c78cbc8fad6ce3a2fa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6744999e5dfed09f35aa25507516e47d') in 0.004360959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/dryBranch/meshCollider
+  artifactKey: Guid(4d7cd3e13403a64a4bfc209c3e345388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/dryBranch/meshCollider using Guid(4d7cd3e13403a64a4bfc209c3e345388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd777705f0e51998adde7ecbeb7d5277f') in 0.003896625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/polygonTrees/polygonTrees/scene
+  artifactKey: Guid(6d87f271efeaf5f6fa5d327dbcbab88f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/scene using Guid(6d87f271efeaf5f6fa5d327dbcbab88f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '167bc0085dc5b0e2beb9b1e9ef3ef425') in 0.004229708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/bigLeavesTreeL.prefab
+  artifactKey: Guid(bd50cc1ba1f197edf95ec3f49d143950) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/bigLeavesTreeL.prefab using Guid(bd50cc1ba1f197edf95ec3f49d143950) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d69750aae56eb62252178901293a34') in 0.031851375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.004860 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(da7bcb6a808be3740963ba42608e7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(da7bcb6a808be3740963ba42608e7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb8d5815a7047a06c2c0f176a0ce7daf') in 0.022233084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.873922 seconds.
+  path: Assets/polygonTrees
+  artifactKey: Guid(9563fc0b0aec75d798436de0c7da8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees using Guid(9563fc0b0aec75d798436de0c7da8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9575e6d8346b604d55ea6ee2fe849c7') in 0.001748125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.201708 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/bigLeavesShrubs/bigLeavesShrubs.fbx
+  artifactKey: Guid(606069ef88593eae49cdff6264762507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/bigLeavesShrubs/bigLeavesShrubs.fbx using Guid(606069ef88593eae49cdff6264762507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '087fc00a8b7650578677bd384e46cc46') in 13.357399084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017959 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/dryBranch/meshCollider/dryBranches Variant.prefab
+  artifactKey: Guid(5391567cbcdb10d7c9a57162c101f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/dryBranch/meshCollider/dryBranches Variant.prefab using Guid(5391567cbcdb10d7c9a57162c101f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1941c56ca1f623ed330f4a73087c7ac9') in 0.097105208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/dryFallenBranchesTree Variant.prefab
+  artifactKey: Guid(a2724564696d47eccabc201325476737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/dryFallenBranchesTree Variant.prefab using Guid(a2724564696d47eccabc201325476737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e924f3dedecff2582d70b9de4ad24348') in 0.021972042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/dryBranch/deadTree Variant.prefab
+  artifactKey: Guid(63a41ff51baa285678539abba629f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/dryBranch/deadTree Variant.prefab using Guid(63a41ff51baa285678539abba629f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57d8d43d7a2a4ee259da1d55813fcf75') in 0.021918417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/blackRockL/blackRockL.fbx
+  artifactKey: Guid(204173ea1065547cea01e1550db0974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/blackRockL/blackRockL.fbx using Guid(204173ea1065547cea01e1550db0974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd071e5e4009b669a71be0680041d3c0') in 0.18186925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/bigLeavesTreeL.fbx
+  artifactKey: Guid(e5defcd771ea6ccb18c54c540bfbcfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/bigLeavesTreeL/bigLeavesTreeL.fbx using Guid(e5defcd771ea6ccb18c54c540bfbcfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdea01f79edf1cf3f93e9cfab4348800') in 0.173570958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.232602 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx
+  artifactKey: Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx using Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1eea50ab6377e5777a68b6e4a53b8e1c') in 0.12845225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL/dryPurpleTreeL.fbx
+  artifactKey: Guid(49c52aa9022901834a6f50b13472da72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/dryTree/dryPurpleTreeL/dryPurpleTreeL.fbx using Guid(49c52aa9022901834a6f50b13472da72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c2fc5ddbc8b37bfe7d7f5b11a33655f') in 0.078554667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/drySimpleTreeL.prefab
+  artifactKey: Guid(77c88c10650db10c2a7b435dcc48666c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/drySimpleTreeL.prefab using Guid(77c88c10650db10c2a7b435dcc48666c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0875cf23e5c41a3ee4c7b6c605a2d0e8') in 0.020992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/drySimpleTree Variant.prefab
+  artifactKey: Guid(6cc76445391501dda8ef9608919e7449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/drySimpleTree Variant.prefab using Guid(6cc76445391501dda8ef9608919e7449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5302496ab70165677e3c7f7be671d91') in 0.014730666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/fallenBranchesTree.fbx
+  artifactKey: Guid(8de141720bc4aa5debd9f47d7cac2db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/fallenBranchesTree.fbx using Guid(8de141720bc4aa5debd9f47d7cac2db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '398ef37f46aa65c737f7a7c37356ce68') in 0.052951875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/littleGrassL.fbx
+  artifactKey: Guid(87ce77df16da887e3b4dcb495428797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/grass/littleGrassL/littleGrassL.fbx using Guid(87ce77df16da887e3b4dcb495428797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2091d9b10466bcfa8898786c1a592593') in 0.054040459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/shurbs/littleLeavesShrubL.prefab
+  artifactKey: Guid(359c5b4e5f8a1acb4be4cc8af53ab365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/shurbs/littleLeavesShrubL.prefab using Guid(359c5b4e5f8a1acb4be4cc8af53ab365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eb3afce6bd03c7d9be8e9b9431688fe') in 0.024103084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/littleGrassL.prefab
+  artifactKey: Guid(077b0ed9293742bd18f47d7bd7f20fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/littleGrassL.prefab using Guid(077b0ed9293742bd18f47d7bd7f20fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a1d60eeb269843883c64a63edea6da1') in 0.013750625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/grass/littleGrass/littleGrass.fbx
+  artifactKey: Guid(9d4128a5b969ff43f9d7095055443a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/grass/littleGrass/littleGrass.fbx using Guid(9d4128a5b969ff43f9d7095055443a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59ead924ff1ce2b4432d4ecefdf115f5') in 0.045952709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/littleLeavesShrubL.fbx
+  artifactKey: Guid(e16b41a8acca9630a87bc28289a86bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/shrub/littleLeavesShrubL/littleLeavesShrubL.fbx using Guid(e16b41a8acca9630a87bc28289a86bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01f1789e42f13eb81fe4839913fbaa60') in 0.0804605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/rocks/redRock/redRock.fbx
+  artifactKey: Guid(836e72e91cf1304f68db13f87717634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/rocks/redRock/redRock.fbx using Guid(836e72e91cf1304f68db13f87717634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eae919109226bab3d2390dca4c6d4d10') in 0.028112167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/redRockL.fbx
+  artifactKey: Guid(95e88f2a95130ef4ba7cadaebe671869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/rocks/redRockL/redRockL.fbx using Guid(95e88f2a95130ef4ba7cadaebe671869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90c3f8940c871cd371f99bb6d40113c0') in 0.064616166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/rocks/rock Variant.prefab
+  artifactKey: Guid(9fea3f738a721b642b10d0735a3c2ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/rocks/rock Variant.prefab using Guid(9fea3f738a721b642b10d0735a3c2ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '013f4a79a62cc7cc093d01094b8f854f') in 0.017500875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/grassL.prefab
+  artifactKey: Guid(efa2d9a4e7dbd481ea0b69edab7eba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/Grass/grassL.prefab using Guid(efa2d9a4e7dbd481ea0b69edab7eba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8649af6b7f37de32da36c42741520e8') in 0.021595542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/fallenBranchesTree Variant.prefab
+  artifactKey: Guid(4e9f5b3ff3b6fa4aaa4678ac8bf8e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/fallenBranchesTree Variant.prefab using Guid(4e9f5b3ff3b6fa4aaa4678ac8bf8e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f648a3dc8b4e400b990bf66f3df01b36') in 0.01558625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/grass/grass Variant.prefab
+  artifactKey: Guid(134c96ff51198e4cea360c89aaab1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/grass/grass Variant.prefab using Guid(134c96ff51198e4cea360c89aaab1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32619011ca1211af214b8b756a1d72b5') in 0.020949625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/rockL/rockL.prefab
+  artifactKey: Guid(d6428805343bebd038a04a693cf69c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/rockL/rockL.prefab using Guid(d6428805343bebd038a04a693cf69c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14145dbbaabdfdb626da02e0ba129c3a') in 0.012133459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub/shrub.fbx
+  artifactKey: Guid(c79fabe36f46308ce9812c017552943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub/shrub.fbx using Guid(c79fabe36f46308ce9812c017552943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ce1f87505a9e89137066c70bc7e25f4') in 0.040528416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/shrubs/shrub Variant.prefab
+  artifactKey: Guid(4a5c3f58cf4a9055693572e2fb1af5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/shrubs/shrub Variant.prefab using Guid(4a5c3f58cf4a9055693572e2fb1af5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dc8a16617f150d3502c587c87d3b5e0') in 0.012122167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002577 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL/purpleTreeL.fbx
+  artifactKey: Guid(b3c2b23919fdfff969ab35ad9c5ddb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/purpleTreeL/purpleTreeL.fbx using Guid(b3c2b23919fdfff969ab35ad9c5ddb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbbe0c8998803d95188ea0a2c6a8c98f') in 0.119320208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/simpleTreeL/simpleTreeL.fbx
+  artifactKey: Guid(c4c1b5fd6a7a4665fbbd1213453e8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/simpleTreeL/simpleTreeL.fbx using Guid(c4c1b5fd6a7a4665fbbd1213453e8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70f788b989895c42e820b0199474d2aa') in 0.12051175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryTreeL.prefab
+  artifactKey: Guid(1987d45a30fa64addae3735d348f2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/dryTree/dryTreeL.prefab using Guid(1987d45a30fa64addae3735d348f2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0489bae8b44b9e75ecf18bce730d6117') in 0.022413834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab
+  artifactKey: Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab using Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'feab1ad1f4050a248c353262a0bae9e5') in 0.014510625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/purpleTree.fbx
+  artifactKey: Guid(dab065333028e7dbc8bdea91c6e0e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/purpleTree.fbx using Guid(dab065333028e7dbc8bdea91c6e0e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83e92ab86e5dc26c86b66b3500a671c8') in 0.051784083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/polygonTrees/polygonTrees/scene/models/scene.fbx
+  artifactKey: Guid(ef7148b3fe80b1466b73d00b3717b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/scene/models/scene.fbx using Guid(ef7148b3fe80b1466b73d00b3717b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c88529fc69e3b16d2337cd26593e0503') in 0.67023425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 107
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/fallenBranchesTreeL.fbx
+  artifactKey: Guid(2aa9288d4eb0c3632b8de02d3af2450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/fallenBranchesTreeL.fbx using Guid(2aa9288d4eb0c3632b8de02d3af2450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f624a7e75322e55f8c7fde88f3e92b2c') in 0.076127708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/tree/tree.fbx
+  artifactKey: Guid(f14cb1c1dbd9f186e8c5fffbe4226805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/tree/tree.fbx using Guid(f14cb1c1dbd9f186e8c5fffbe4226805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '569109841f0d8195bfc89197d68a4c00') in 0.044481916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/tree1L.prefab
+  artifactKey: Guid(e1058c6956dd308aeaf75230cea768c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/prefabLODs/trees/tree1L.prefab using Guid(e1058c6956dd308aeaf75230cea768c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81388f901d9a0798df6b79198eaa93ad') in 0.039830958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/tree Variant.prefab
+  artifactKey: Guid(7efdb8014b1a7d0e8a1c26bf74dd3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/tree Variant.prefab using Guid(7efdb8014b1a7d0e8a1c26bf74dd3e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc0a9b41039b49ee79de253cc04b286') in 0.022687625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
