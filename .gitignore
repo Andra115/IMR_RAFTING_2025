@@ -1,17 +1,55 @@
-# Unity standard - auto-generated files
+# === Unity Generated ===
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
+[Bb]uild*/
 [Bb]uilds/
 [Ll]ogs/
 UserSettings/
+MemoryCaptures/
+Recordings/
+sysinfo.txt
 
-# Exclude very large assets
-Assets/Textures/LargeTextures/*.png
-Assets/Models/BigModels/*.fbx
-Assets/Audio/LargeAudio/*.wav
-Assets/Videos/*.mp4
+# === IDE / Project Files ===
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.pdb
+*.mdb
 
-# Large external packages (e.g. Vuforia)
-Packages/com.ptc.vuforia.engine-11.4.4.tgz
+# === Oculus / Android Builds ===
+*.apk
+*.aab
+*.obb
+
+# === Misc ===
+.DS_Store
+Thumbs.db
+
+# === Unity Packages ===
+*.unitypackage
+
+# === Large Assets - optional (Git LFS recommended) ===
+*.fbx
+*.png
+*.jpg
+*.tga
+*.psd
+*.exr
+*.wav
+*.mp3
+*.mp4
+
+# === Large Asset Folders specific for your project ===
+RaftingProject/Assets/SUIMONO - WATER SYSTEM 2/
+RaftingProject/Assets/TerrainDemoScene_URP/
+
+# === Keep important folders in repo ===
+!ProjectSettings/
+!Packages/
