@@ -3,6 +3,8 @@ com.ptc.vuforia.engine-11.4.4.tgz
 Packages/com.ptc.vuforia.engine-11.4.4.tgz
 Library
 /Library
-Assets/
-/Assets
-Assets
+Assets/TerrainDemoScene_URP/*
+Assets/WaterWorks/*
+Assets/HDRPDefaultResources/*
+RaftingProject/Temp/
+RaftingProject/Assets/TerrainDemoScene_URP/
