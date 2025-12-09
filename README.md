@@ -9,3 +9,6 @@ WEEK 7: https://youtu.be/Wzh7j5-NIpw
 
 WEEK 9: https://youtu.be/0CtJ6UO-5Vo
 -swimming works on oculus
+
+https://youtu.be/-RAnpz9Dla4
+-the environment looks better and the river doesn't start/end in the void, it comes from a waterfall and it'll end up in a lake
