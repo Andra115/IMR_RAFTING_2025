@@ -6,3 +6,6 @@ WEEK 5:https://www.canva.com/design/DAG3pTp56H8/IeMtUD7rkcpthbTMrgR3AQ/edit?utm_
 Video: https://www.youtube.com/watch?v=xn82Clmib7I
 
 WEEK 7: https://youtu.be/Wzh7j5-NIpw
+
+WEEK 9: https://youtu.be/0CtJ6UO-5Vo
+-swimming works on oculus
