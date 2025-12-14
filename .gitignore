@@ -56,6 +56,14 @@ RaftingProject/Assets/TerrainDemoScene_URP/
 Assets/TerrainDemoScene_URP/*
 Assets/WaterWorks/*
 Assets/HDRPDefaultResources/*
+Assets/enviroment/*
+Assets/textures/*
+RaftingProject/Assets/enviroment/*
+RaftingProjectAssets/textures/*
+Assets/enviroment/
+Assets/textures/
+RaftingProject/Assets/enviroment/
+RaftingProjectAssets/textures/
 
 # Keep important folders
 !ProjectSettings/
