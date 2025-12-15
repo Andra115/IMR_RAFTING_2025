@@ -77,3 +77,14 @@ The following packages were added:
   com.unity.ide.vscode@1.2.4
   com.unity.render-pipelines.high-definition@17.0.4
   com.unity.shadergraph@17.0.4
+
+=== Mon Dec 15 12:14:44 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 2.10.1 to 2.10.2
+  com.unity.ide.visualstudio from version 2.0.23 to 2.0.25
+  com.unity.probuilder from version 6.0.7 to 6.0.8
+  com.unity.xr.openxr from version 1.15.1 to 1.16.0
