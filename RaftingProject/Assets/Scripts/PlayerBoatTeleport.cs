@@ -1,6 +1,8 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Unity.XR.CoreUtils;
+using UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation;
 
 public class PlayerBoatTeleport : MonoBehaviour
 {
@@ -14,6 +16,8 @@ public class PlayerBoatTeleport : MonoBehaviour
     public Behaviour[] disableWhenInBoat;
     public Behaviour[] enableWhenInBoat;
 
+    public XRDeviceSimulator xrDeviceSimulator;
+
     XROrigin xrOrigin;
     Transform cam;
 
@@ -22,6 +26,8 @@ public class PlayerBoatTeleport : MonoBehaviour
     Vector3 lastBoatPos;
     Quaternion lastBoatRot;
 
+    List<InputAction> simulatorMoveActions = new List<InputAction>();
+
     void Awake()
     {
         xrOrigin = GetComponent<XROrigin>();
@@ -29,6 +35,11 @@ public class PlayerBoatTeleport : MonoBehaviour
 
         cam = xrOrigin.Camera != null ? xrOrigin.Camera.transform : null;
         if (cam == null) { enabled = false; return; }
+
+        if (!xrDeviceSimulator)
+            xrDeviceSimulator = FindFirstObjectByType<XRDeviceSimulator>();
+
+        CacheSimulatorWASDActions();
     }
 
     void Start()
@@ -54,8 +65,8 @@ public class PlayerBoatTeleport : MonoBehaviour
     {
         if (!inBoat || boatRigidbody == null) return;
 
-        var boatPos = boatRigidbody.position;
-        var boatRot = boatRigidbody.rotation;
+        var boatPos = boatEnterPoint.position;
+        var boatRot = boatEnterPoint.rotation;
 
         var deltaPos = boatPos - lastBoatPos;
         transform.position += deltaPos;
@@ -91,6 +102,8 @@ public class PlayerBoatTeleport : MonoBehaviour
         lastBoatRot = boatRigidbody.rotation;
 
         inBoat = true;
+
+        SetSimulatorWASDEnabled(false);
     }
 
     void ExitBoat()
@@ -107,6 +120,8 @@ public class PlayerBoatTeleport : MonoBehaviour
         SetBehaviours(enableWhenInBoat, false);
 
         inBoat = false;
+
+        SetSimulatorWASDEnabled(true);
     }
 
     void SetBehaviours(Behaviour[] list, bool state)
@@ -114,5 +129,57 @@ public class PlayerBoatTeleport : MonoBehaviour
         if (list == null) return;
         for (int i = 0; i < list.Length; i++)
             if (list[i] != null) list[i].enabled = state;
+    }
+
+    void CacheSimulatorWASDActions()
+    {
+        simulatorMoveActions.Clear();
+        if (xrDeviceSimulator == null) return;
+
+        var asset = xrDeviceSimulator.deviceSimulatorActionAsset;
+        if (asset == null) return;
+
+        foreach (var map in asset.actionMaps)
+        {
+            foreach (var action in map.actions)
+            {
+                bool isMovementByName = false;
+                var n = action.name.ToLowerInvariant();
+                if (n.Contains("move") || n.Contains("translate") || n.Contains("position") || n.Contains("locomotion"))
+                    isMovementByName = true;
+
+                bool hasKeyboardWASD = false;
+                for (int i = 0; i < action.bindings.Count; i++)
+                {
+                    var p = action.bindings[i].effectivePath;
+                    if (string.IsNullOrEmpty(p)) continue;
+                    var lp = p.ToLowerInvariant();
+                    if (lp.Contains("<keyboard>/w") || lp.Contains("<keyboard>/a") || 
+                        lp.Contains("<keyboard>/s") || lp.Contains("<keyboard>/d") || 
+                        lp.Contains("<keyboard>/q") || lp.Contains("<keyboard>/e"))
+                    {
+                        hasKeyboardWASD = true;
+                        break;
+                    }
+                }
+
+                if (isMovementByName && hasKeyboardWASD)
+                    simulatorMoveActions.Add(action);
+            }
+        }
+    }
+
+    void SetSimulatorWASDEnabled(bool enabled)
+    {
+        if (simulatorMoveActions == null || simulatorMoveActions.Count == 0) return;
+
+        for (int i = 0; i < simulatorMoveActions.Count; i++)
+        {
+            var a = simulatorMoveActions[i];
+            if (a == null) continue;
+
+            if (enabled) a.Enable();
+            else a.Disable();
+        }
     }
 }
