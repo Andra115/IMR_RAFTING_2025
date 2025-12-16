@@ -12,3 +12,7 @@ WEEK 9: https://youtu.be/0CtJ6UO-5Vo
 
 https://youtu.be/-RAnpz9Dla4
 -the environment looks better and the river doesn't start/end in the void, it comes from a waterfall and it'll end up in a lake
+
+WEEK 12:
+- we integrated all the features we have implemented so far
+https://www.youtube.com/watch?v=yaEK-P3swWk
