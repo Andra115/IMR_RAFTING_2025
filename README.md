@@ -16,3 +16,6 @@ https://youtu.be/-RAnpz9Dla4
 WEEK 12:
 - we integrated all the features we have implemented so far
 https://www.youtube.com/watch?v=yaEK-P3swWk
+
+LAST WEEK:
+https://youtu.be/3948lolCKZw
