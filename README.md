@@ -19,3 +19,5 @@ https://www.youtube.com/watch?v=yaEK-P3swWk
 
 LAST WEEK:
 https://youtu.be/3948lolCKZw
+<img width="2006" height="1008" alt="image" src="https://github.com/user-attachments/assets/7a07ee4b-72fc-4209-b42b-b0e004392d82" />
+
