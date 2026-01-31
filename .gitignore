@@ -1,11 +1,14 @@
 # Unity generated
 [Ll]ibrary/
+RaftingProject/Library
 [Tt]emp/
 [Oo]bj/
 [Bb]uild*/
 [Bb]uilds/
 [Ll]ogs/
+RaftingProject/Logs/
 UserSettings/
+RaftingProject/UserSettings/
 MemoryCaptures/
 Recordings/
 sysinfo.txt
@@ -53,17 +56,18 @@ Packages/com.ptc.vuforia.engine-11.4.4.tgz
 # Large asset folders
 RaftingProject/Assets/SUIMONO - WATER SYSTEM 2/
 RaftingProject/Assets/TerrainDemoScene_URP/
-Assets/TerrainDemoScene_URP/*
-Assets/WaterWorks/*
-Assets/HDRPDefaultResources/*
-Assets/enviroment/*
-Assets/textures/*
-RaftingProject/Assets/enviroment/*
-RaftingProjectAssets/textures/*
+Assets/TerrainDemoScene_URP/
+Assets/WaterWorks/
+Assets/HDRPDefaultResources/
 Assets/enviroment/
 Assets/textures/
 RaftingProject/Assets/enviroment/
 RaftingProjectAssets/textures/
+Assets/enviroment/
+Assets/textures/
+RaftingProject/Assets/enviroment/
+RaftingProjectAssets/textures/
+RaftingProject/Assets/visual_assets/
 
 # Keep important folders
 !ProjectSettings/
