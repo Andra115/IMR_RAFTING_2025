@@ -7,6 +7,10 @@ public class PaddlingController : MonoBehaviour
     public Transform leftHand;   // Your VR Controller (Left)
     public Transform rightHand;  // Your VR Controller (Right)
     
+    [Header("Paddle Objects")]
+    public GameObject leftPaddle;  // ADD THIS - drag your left paddle here
+    public GameObject rightPaddle; // ADD THIS - drag your right paddle here
+    
     [Header("Paddle Settings")]
     public float paddleForwardForce = 5.0f;
     public float paddleTurnTorque = 2.0f; // How much we turn per stroke
@@ -51,38 +55,54 @@ public class PaddlingController : MonoBehaviour
 
     void HandlePaddling()
     {
+        Debug.Log($"HandlePaddling - Left holding: {isHoldingLeft}, Right holding: {isHoldingRight}");
+        
         // Check Left Hand
         if (isHoldingLeft && CheckMovement(leftHand, ref leftHandCooldown, prevLeftPos))
         {
-            ApplyPaddleForce(1); // 1 = Left Side
+            Debug.Log("LEFT PADDLE STROKE DETECTED!");
+            ApplyPaddleForce(1);
         }
 
         // Check Right Hand
         if (isHoldingRight && CheckMovement(rightHand, ref rightHandCooldown, prevRightPos))
         {
-            ApplyPaddleForce(-1); // -1 = Right Side
+            Debug.Log("RIGHT PADDLE STROKE DETECTED!");
+            ApplyPaddleForce(-1);
         }
     }
 
-    // Returns true if the hand moved enough to count as a "stroke"
     bool CheckMovement(Transform hand, ref float cooldown, Vector3 prevPos)
     {
-        if (cooldown > 0) return false;
+        if (cooldown > 0)
+        {
+            Debug.Log($"Cooldown active: {cooldown}");
+            return false;
+        }
+
+        if (hand == null)
+        {
+            Debug.LogError("Hand transform is NULL!");
+            return false;
+        }
 
         float linearMovement = Vector3.Distance(hand.position, prevPos);
+        
+        Debug.Log($"Hand movement: {linearMovement} (threshold: {minimumMovementDistance})");
 
         // Simple distance check (like your PositionOrRotation mode)
         if (linearMovement > minimumMovementDistance)
         {
             cooldown = strokeCooldown; // Reset cooldown
+            Debug.Log("MOVEMENT THRESHOLD EXCEEDED - STROKE!");
             return true;
         }
         return false;
     }
-
     // side: 1 for Left (Turns Right), -1 for Right (Turns Left)
     void ApplyPaddleForce(int side)
     {
+        Debug.Log($"APPLYING FORCE! Side: {side}, Forward: {paddleForwardForce}, Torque: {paddleTurnTorque}"); // ADD THIS
         // 1. Move Forward (Both paddles push boat forward)
         // We use the BOAT'S forward direction, not the hand's
         Vector3 forwardDir = boatRigidbody.transform.forward;
@@ -125,5 +145,49 @@ public class PaddlingController : MonoBehaviour
     public void SetRightPaddleState(bool isHeld)
     {
         isHoldingRight = isHeld;
+    }
+    
+    // --- NEW: COLLIDER TOGGLE ON GRAB/RELEASE ---
+    
+    public void OnLeftPaddleGrabbed()
+    {
+        SetLeftPaddleState(true);
+        
+        // DISABLE collider while holding so it doesn't hit boat
+        Collider col = leftPaddle.GetComponent<Collider>();
+        if(col) col.enabled = false;
+        
+        Debug.Log("Left paddle grabbed - collider disabled!");
+    }
+
+    public void OnLeftPaddleReleased()
+    {
+        SetLeftPaddleState(false);
+        
+        // RE-ENABLE collider when released
+        Collider col = leftPaddle.GetComponent<Collider>();
+        if(col) col.enabled = true;
+        
+        Debug.Log("Left paddle released - collider enabled!");
+    }
+
+    public void OnRightPaddleGrabbed()
+    {
+        SetRightPaddleState(true);
+        
+        Collider col = rightPaddle.GetComponent<Collider>();
+        if(col) col.enabled = false;
+        
+        Debug.Log("Right paddle grabbed - collider disabled!");
+    }
+
+    public void OnRightPaddleReleased()
+    {
+        SetRightPaddleState(false);
+        
+        Collider col = rightPaddle.GetComponent<Collider>();
+        if(col) col.enabled = true;
+        
+        Debug.Log("Right paddle released - collider enabled!");
     }
 }
