@@ -4,27 +4,29 @@ public class PaddlingController : MonoBehaviour
 {
     [Header("References")]
     public Rigidbody boatRigidbody;
-    public Transform leftHand;   // Your VR Controller (Left)
-    public Transform rightHand;  // Your VR Controller (Right)
+    public Transform leftHand;   // Paddle tip transform
+    public Transform rightHand;  // Paddle tip transform
     
-    [Header("Paddle Objects")]
-    public GameObject leftPaddle;  // ADD THIS - drag your left paddle here
-    public GameObject rightPaddle; // ADD THIS - drag your right paddle here
+    [Header("Paddle Objects & Holsters")]
+    public GameObject leftPaddle;
+    public GameObject rightPaddle;
+    public Transform leftPaddleHolster;   // Where left paddle docks
+    public Transform rightPaddleHolster;  // Where right paddle docks
     
     [Header("Paddle Settings")]
     public float paddleForwardForce = 5.0f;
-    public float paddleTurnTorque = 2.0f; // How much we turn per stroke
+    public float paddleTurnTorque = 2.0f;
     public float maxBoatSpeed = 8f;
     
-    [Header("Detection Settings (Same as Swimming)")]
+    [Header("Detection Settings")]
     public float minimumMovementDistance = 0.12f;
     public float strokeCooldown = 0.25f;
 
-    // State: We only paddle if we are actually holding the paddles
+    // State
     private bool isHoldingLeft = false;
     private bool isHoldingRight = false;
 
-    // Tracking for movement detection
+    // Tracking
     private Vector3 prevLeftPos;
     private Vector3 prevRightPos;
     private float leftHandCooldown = 0f;
@@ -32,93 +34,63 @@ public class PaddlingController : MonoBehaviour
 
     void Start()
     {
-        // Initialize previous positions to avoid instant movement on start
         if(leftHand) prevLeftPos = leftHand.position;
         if(rightHand) prevRightPos = rightHand.position;
+
+        // Dock paddles at start
+        DockPaddle(leftPaddle, leftPaddleHolster);
+        DockPaddle(rightPaddle, rightPaddleHolster);
     }
 
     void FixedUpdate()
     {
-        // Update Cooldowns
         if (leftHandCooldown > 0) leftHandCooldown -= Time.deltaTime;
         if (rightHandCooldown > 0) rightHandCooldown -= Time.deltaTime;
 
-        // handle paddling logic
         HandlePaddling();
-
-        // Optional: Keep boat upright or clamp speed
         ClampBoatSpeed();
-        
-        // Update positions for next frame
         UpdatePreviousState();
     }
 
     void HandlePaddling()
     {
-        Debug.Log($"HandlePaddling - Left holding: {isHoldingLeft}, Right holding: {isHoldingRight}");
-        
-        // Check Left Hand
         if (isHoldingLeft && CheckMovement(leftHand, ref leftHandCooldown, prevLeftPos))
         {
-            Debug.Log("LEFT PADDLE STROKE DETECTED!");
             ApplyPaddleForce(1);
         }
 
-        // Check Right Hand
         if (isHoldingRight && CheckMovement(rightHand, ref rightHandCooldown, prevRightPos))
         {
-            Debug.Log("RIGHT PADDLE STROKE DETECTED!");
             ApplyPaddleForce(-1);
         }
     }
 
     bool CheckMovement(Transform hand, ref float cooldown, Vector3 prevPos)
     {
-        if (cooldown > 0)
-        {
-            Debug.Log($"Cooldown active: {cooldown}");
-            return false;
-        }
-
-        if (hand == null)
-        {
-            Debug.LogError("Hand transform is NULL!");
-            return false;
-        }
+        if (cooldown > 0) return false;
+        if (hand == null) return false;
 
         float linearMovement = Vector3.Distance(hand.position, prevPos);
-        
-        Debug.Log($"Hand movement: {linearMovement} (threshold: {minimumMovementDistance})");
 
-        // Simple distance check (like your PositionOrRotation mode)
         if (linearMovement > minimumMovementDistance)
         {
-            cooldown = strokeCooldown; // Reset cooldown
-            Debug.Log("MOVEMENT THRESHOLD EXCEEDED - STROKE!");
+            cooldown = strokeCooldown;
             return true;
         }
         return false;
     }
-    // side: 1 for Left (Turns Right), -1 for Right (Turns Left)
+
     void ApplyPaddleForce(int side)
     {
-        Debug.Log($"APPLYING FORCE! Side: {side}, Forward: {paddleForwardForce}, Torque: {paddleTurnTorque}"); // ADD THIS
-        // 1. Move Forward (Both paddles push boat forward)
-        // We use the BOAT'S forward direction, not the hand's
         Vector3 forwardDir = boatRigidbody.transform.forward;
         boatRigidbody.AddForce(forwardDir * paddleForwardForce, ForceMode.VelocityChange);
 
-        // 2. Rotate (Steering)
-        // Left paddle (side 1) adds POSITIVE Torque (Rotates Right)
-        // Right paddle (side -1) adds NEGATIVE Torque (Rotates Left)
-        // Note: Check your specific axis, usually Y is up.
         Vector3 rotationDir = Vector3.up * (paddleTurnTorque * side);
         boatRigidbody.AddTorque(rotationDir, ForceMode.VelocityChange);
     }
 
     void ClampBoatSpeed()
     {
-        // Preserve vertical velocity (gravity/buoyancy), clamp horizontal
         Vector3 vel = boatRigidbody.linearVelocity;
         Vector3 horizontal = new Vector3(vel.x, 0, vel.z);
 
@@ -135,7 +107,41 @@ public class PaddlingController : MonoBehaviour
         if(rightHand) prevRightPos = rightHand.position;
     }
 
-    // --- PUBLIC METHODS FOR YOUR GRAB SYSTEM ---
+    void DockPaddle(GameObject paddle, Transform holster)
+    {
+        if(paddle == null || holster == null) return;
+        
+        // Parent to holster
+        paddle.transform.SetParent(holster);
+        paddle.transform.localPosition = Vector3.zero;
+        paddle.transform.localRotation = Quaternion.identity;
+        
+        // Freeze ALL position and rotation
+        Rigidbody rb = paddle.GetComponent<Rigidbody>();
+        if(rb)
+        {
+            rb.constraints = RigidbodyConstraints.FreezeAll;
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
+    }
+
+    void UndockPaddle(GameObject paddle)
+    {
+        if(paddle == null) return;
+        
+        // Unparent
+        paddle.transform.SetParent(null);
+        
+        // Unfreeze ALL constraints
+        Rigidbody rb = paddle.GetComponent<Rigidbody>();
+        if(rb)
+        {
+            rb.constraints = RigidbodyConstraints.None;
+        }
+    }
+
+    // --- PUBLIC METHODS FOR XR GRAB EVENTS ---
 
     public void SetLeftPaddleState(bool isHeld)
     {
@@ -147,38 +153,34 @@ public class PaddlingController : MonoBehaviour
         isHoldingRight = isHeld;
     }
     
-    // --- NEW: COLLIDER TOGGLE ON GRAB/RELEASE ---
-    
     public void OnLeftPaddleGrabbed()
     {
         SetLeftPaddleState(true);
+        UndockPaddle(leftPaddle);
         
-        // DISABLE collider while holding so it doesn't hit boat
+        // Disable collider when grabbed
         Collider col = leftPaddle.GetComponent<Collider>();
         if(col) col.enabled = false;
-        
-        Debug.Log("Left paddle grabbed - collider disabled!");
     }
 
     public void OnLeftPaddleReleased()
     {
         SetLeftPaddleState(false);
         
-        // RE-ENABLE collider when released
+        // Re-enable collider before docking
         Collider col = leftPaddle.GetComponent<Collider>();
         if(col) col.enabled = true;
         
-        Debug.Log("Left paddle released - collider enabled!");
+        DockPaddle(leftPaddle, leftPaddleHolster);
     }
 
     public void OnRightPaddleGrabbed()
     {
         SetRightPaddleState(true);
+        UndockPaddle(rightPaddle);
         
         Collider col = rightPaddle.GetComponent<Collider>();
         if(col) col.enabled = false;
-        
-        Debug.Log("Right paddle grabbed - collider disabled!");
     }
 
     public void OnRightPaddleReleased()
@@ -188,6 +190,6 @@ public class PaddlingController : MonoBehaviour
         Collider col = rightPaddle.GetComponent<Collider>();
         if(col) col.enabled = true;
         
-        Debug.Log("Right paddle released - collider enabled!");
+        DockPaddle(rightPaddle, rightPaddleHolster);
     }
 }
