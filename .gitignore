@@ -66,8 +66,11 @@ RaftingProjectAssets/textures/
 Assets/enviroment/
 Assets/textures/
 RaftingProject/Assets/enviroment/
-RaftingProjectAssets/textures/
+RaftingProject/Assets/textures/
 RaftingProject/Assets/visual_assets/
+RaftingProject/Assets/TerrainDemoScene_URP/
+RaftingProject/Assets/Forst/
+RaftingProject/Assets/WaterWorks/
 
 # Keep important folders
 !ProjectSettings/
