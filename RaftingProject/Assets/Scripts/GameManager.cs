@@ -8,11 +8,13 @@ public class GameManager : MonoBehaviour
     public GameObject panelHud;
     public GameObject panelPause;
     public TMP_Text timerText;
+    public TMP_Text scoreText; // Add this
 
     float time;
     bool running;
     bool paused;
     float savedTimeScale;
+    int score = 0; // Add this
 
     void Start()
     {
@@ -20,6 +22,7 @@ public class GameManager : MonoBehaviour
         savedTimeScale = 1f;
         time = 0f;
         running = false;
+        score = 0; // Add this
 
         if (panelMenu != null) panelMenu.SetActive(true);
         if (panelHud != null) panelHud.SetActive(false);
@@ -29,6 +32,9 @@ public class GameManager : MonoBehaviour
 
         if (timerText != null)
             timerText.text = "Time: 00:00.00";
+
+        if (scoreText != null) // Add this
+            scoreText.text = "Score: 0";
     }
 
     void Update()
@@ -54,6 +60,14 @@ public class GameManager : MonoBehaviour
             timerText.text = "Time: " + min.ToString("00") + ":" + sec.ToString("00.00");
     }
 
+    // Add this method
+    public void AddScore(int points)
+    {
+        score += points;
+        if (scoreText != null)
+            scoreText.text = "Score: " + score;
+    }
+
     public void StartGame()
     {
         paused = false;
@@ -64,10 +78,14 @@ public class GameManager : MonoBehaviour
         if (panelPause != null) panelPause.SetActive(false);
 
         time = 0f;
+        score = 0; // Add this
         running = true;
 
         if (timerText != null)
             timerText.text = "Time: 00:00.00";
+
+        if (scoreText != null) // Add this
+            scoreText.text = "Score: 0";
     }
 
     public void FinishGame()

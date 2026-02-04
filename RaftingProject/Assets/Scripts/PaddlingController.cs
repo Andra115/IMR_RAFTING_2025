@@ -6,21 +6,30 @@ public class PaddlingController : MonoBehaviour
     public Rigidbody boatRigidbody;
     public Transform leftHand;   // Paddle tip transform
     public Transform rightHand;  // Paddle tip transform
-    
+
     [Header("Paddle Objects & Holsters")]
     public GameObject leftPaddle;
     public GameObject rightPaddle;
-    public Transform leftPaddleHolster;   // Where left paddle docks
-    public Transform rightPaddleHolster;  // Where right paddle docks
-    
+    public Transform leftPaddleHolster;
+    public Transform rightPaddleHolster;
+
     [Header("Paddle Settings")]
     public float paddleForwardForce = 5.0f;
     public float paddleTurnTorque = 2.0f;
     public float maxBoatSpeed = 8f;
-    
+
     [Header("Detection Settings")]
     public float minimumMovementDistance = 0.12f;
     public float strokeCooldown = 0.25f;
+
+    [Header("Water Effects")]
+    public GameObject splashEffectPrefab;  // Drag your particle effect here
+    public float waterLevel = 0f;          // Y position of water surface
+    public AudioClip[] paddleSplashSounds; // Array of splash sound clips
+    public AudioSource audioSource;        // Audio source for playing sounds
+    [Range(0f, 1f)]
+    public float soundVolume = 0.5f;
+    public float splashSoundCooldown = 1.5f; // Cooldown between splash sounds
 
     // State
     private bool isHoldingLeft = false;
@@ -31,11 +40,20 @@ public class PaddlingController : MonoBehaviour
     private Vector3 prevRightPos;
     private float leftHandCooldown = 0f;
     private float rightHandCooldown = 0f;
+    private float splashSoundTimer = 0f; // Timer for sound cooldown
 
     void Start()
     {
-        if(leftHand) prevLeftPos = leftHand.position;
-        if(rightHand) prevRightPos = rightHand.position;
+        if (leftHand) prevLeftPos = leftHand.position;
+        if (rightHand) prevRightPos = rightHand.position;
+
+        // Auto-create audio source if not assigned
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.spatialBlend = 1f; // 3D sound
+            audioSource.maxDistance = 20f;
+        }
 
         // Dock paddles at start
         DockPaddle(leftPaddle, leftPaddleHolster);
@@ -46,6 +64,7 @@ public class PaddlingController : MonoBehaviour
     {
         if (leftHandCooldown > 0) leftHandCooldown -= Time.deltaTime;
         if (rightHandCooldown > 0) rightHandCooldown -= Time.deltaTime;
+        if (splashSoundTimer > 0) splashSoundTimer -= Time.deltaTime;
 
         HandlePaddling();
         ClampBoatSpeed();
@@ -57,11 +76,13 @@ public class PaddlingController : MonoBehaviour
         if (isHoldingLeft && CheckMovement(leftHand, ref leftHandCooldown, prevLeftPos))
         {
             ApplyPaddleForce(1);
+            PlaySplashEffect(leftHand.position); // Play splash at paddle tip
         }
 
         if (isHoldingRight && CheckMovement(rightHand, ref rightHandCooldown, prevRightPos))
         {
             ApplyPaddleForce(-1);
+            PlaySplashEffect(rightHand.position);
         }
     }
 
@@ -89,6 +110,57 @@ public class PaddlingController : MonoBehaviour
         boatRigidbody.AddTorque(rotationDir, ForceMode.VelocityChange);
     }
 
+    void PlaySplashEffect(Vector3 paddlePosition)
+    {
+        Debug.Log($"PlaySplashEffect called at position: {paddlePosition}, Water level: {waterLevel}");
+
+        // Only play splash if paddle is near/below water level
+        if (paddlePosition.y > waterLevel + 0.3f)
+        {
+            Debug.Log($"Paddle too high! Paddle Y: {paddlePosition.y}, Water threshold: {waterLevel + 0.3f}");
+            return;
+        }
+
+        Debug.Log("Paddle is in water - spawning splash!");
+
+        // Spawn splash particle effect at water level
+        if (splashEffectPrefab != null)
+        {
+            Vector3 splashPos = new Vector3(paddlePosition.x, waterLevel, paddlePosition.z);
+            GameObject splash = Instantiate(splashEffectPrefab, splashPos, Quaternion.identity);
+            Debug.Log($"Splash spawned at {splashPos}");
+            Destroy(splash, 3f);
+        }
+        else
+        {
+            Debug.LogWarning("Splash Effect Prefab is NULL!");
+        }
+
+        // Play random splash sound with cooldown
+        if (splashSoundTimer <= 0f && paddleSplashSounds != null && paddleSplashSounds.Length > 0 && audioSource != null)
+        {
+            AudioClip randomClip = paddleSplashSounds[Random.Range(0, paddleSplashSounds.Length)];
+            if (randomClip != null)
+            {
+                audioSource.PlayOneShot(randomClip, soundVolume);
+                splashSoundTimer = splashSoundCooldown; // Reset cooldown timer
+                Debug.Log($"Playing sound: {randomClip.name} at volume {soundVolume}");
+            }
+            else
+            {
+                Debug.LogWarning("Random clip is NULL!");
+            }
+        }
+        else if (splashSoundTimer > 0f)
+        {
+            Debug.Log($"Sound on cooldown. Time remaining: {splashSoundTimer:F2}s");
+        }
+        else
+        {
+            Debug.LogWarning($"Sound issue - Sounds array: {paddleSplashSounds?.Length ?? 0}, AudioSource: {(audioSource != null ? "EXISTS" : "NULL")}");
+        }
+    }
+
     void ClampBoatSpeed()
     {
         Vector3 vel = boatRigidbody.linearVelocity;
@@ -103,22 +175,20 @@ public class PaddlingController : MonoBehaviour
 
     void UpdatePreviousState()
     {
-        if(leftHand) prevLeftPos = leftHand.position;
-        if(rightHand) prevRightPos = rightHand.position;
+        if (leftHand) prevLeftPos = leftHand.position;
+        if (rightHand) prevRightPos = rightHand.position;
     }
 
     void DockPaddle(GameObject paddle, Transform holster)
     {
-        if(paddle == null || holster == null) return;
-        
-        // Parent to holster
+        if (paddle == null || holster == null) return;
+
         paddle.transform.SetParent(holster);
         paddle.transform.localPosition = Vector3.zero;
         paddle.transform.localRotation = Quaternion.identity;
-        
-        // Freeze ALL position and rotation
+
         Rigidbody rb = paddle.GetComponent<Rigidbody>();
-        if(rb)
+        if (rb)
         {
             rb.constraints = RigidbodyConstraints.FreezeAll;
             rb.linearVelocity = Vector3.zero;
@@ -128,14 +198,12 @@ public class PaddlingController : MonoBehaviour
 
     void UndockPaddle(GameObject paddle)
     {
-        if(paddle == null) return;
-        
-        // Unparent
+        if (paddle == null) return;
+
         paddle.transform.SetParent(null);
-        
-        // Unfreeze ALL constraints
+
         Rigidbody rb = paddle.GetComponent<Rigidbody>();
-        if(rb)
+        if (rb)
         {
             rb.constraints = RigidbodyConstraints.None;
         }
@@ -152,25 +220,23 @@ public class PaddlingController : MonoBehaviour
     {
         isHoldingRight = isHeld;
     }
-    
+
     public void OnLeftPaddleGrabbed()
     {
         SetLeftPaddleState(true);
         UndockPaddle(leftPaddle);
-        
-        // Disable collider when grabbed
+
         Collider col = leftPaddle.GetComponent<Collider>();
-        if(col) col.enabled = false;
+        if (col) col.enabled = false;
     }
 
     public void OnLeftPaddleReleased()
     {
         SetLeftPaddleState(false);
-        
-        // Re-enable collider before docking
+
         Collider col = leftPaddle.GetComponent<Collider>();
-        if(col) col.enabled = true;
-        
+        if (col) col.enabled = true;
+
         DockPaddle(leftPaddle, leftPaddleHolster);
     }
 
@@ -178,18 +244,18 @@ public class PaddlingController : MonoBehaviour
     {
         SetRightPaddleState(true);
         UndockPaddle(rightPaddle);
-        
+
         Collider col = rightPaddle.GetComponent<Collider>();
-        if(col) col.enabled = false;
+        if (col) col.enabled = false;
     }
 
     public void OnRightPaddleReleased()
     {
         SetRightPaddleState(false);
-        
+
         Collider col = rightPaddle.GetComponent<Collider>();
-        if(col) col.enabled = true;
-        
+        if (col) col.enabled = true;
+
         DockPaddle(rightPaddle, rightPaddleHolster);
     }
 }

@@ -27,6 +27,10 @@ RaftingProject/Temp/
 *.pdb
 *.mdb
 
+# Unity Android / IL2CPP temp
+.utmp/
+RaftingProject/.utmp/
+
 # Android/Oculus builds
 *.apk
 *.aab

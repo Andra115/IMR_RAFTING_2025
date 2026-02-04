@@ -1,2 +1,0 @@
-C:\Users\admin\Desktop\IMR_RAFTING_2025\RaftingProject\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
-C:\Users\admin\Desktop\IMR_RAFTING_2025\RaftingProject\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
